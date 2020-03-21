@@ -1,0 +1,7 @@
+{
+    "env": {
+        "BOT_TOKEN": "NjkwOTMwNjU3NDk2NTMxMDA2.XnYmbQ.vekJSNUO_mkP_dNOQfHbMnaQ9C0",
+        "COVID_URL": "https://www.worldometers.info/coronavirus/"
+    },
+    "version": 2
+}
