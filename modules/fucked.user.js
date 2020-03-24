@@ -1,6 +1,8 @@
+const { Permission } = require('../helpers/index');
+
 module.exports = (msg) => {
     if (msg.content.startsWith('!fucks')) {
-        if (msg.member.roles.cache.some(el => (el.name === 'Batya' || el.name === 'God'))) {
+        if (Permission.isAdmin(msg)) {
             msg.mentions.users.forEach(el => {
                 msg.channel.send(`Fuck u <@${el.id}>`);
             })
