@@ -7,7 +7,7 @@ module.exports = (msg) => {
                 msg.channel.send(`Fuck u <@${el.id}>`);
             })
         } else {
-            msg.reply(`Fuck U. U don't have permissions for fucked someone`)
+            msg.reply(`Cu, U have a gread pi-pi`)
         }
     }
 }
