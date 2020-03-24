@@ -13,9 +13,11 @@ client.login(process.env.BOT_TOKEN).then(res => {
 const help = require('./modules/help.commands');
 const covid = require('./modules/covid.statistic');
 const fucks = require('./modules/fucked.user');
+const teXt = require('./modules/text.js');
 
 client.on('message', (msg) => {
     help(msg);
     covid(msg);
     fucks(msg);
+    teXt(msg);
 });
